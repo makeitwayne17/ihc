@@ -9,7 +9,7 @@ ssh pi@raspberrypi.local
 check your version using:
 brew -v
 
-3. install node (this might take some time):
+3. install node (this might take a very time):
 brew install node
 
 4. 
