@@ -9,13 +9,18 @@ ssh pi@raspberrypi.local
   check your version using:
   brew -v
 
-3. install node (this might take a very time):
-brew install node
+3. install node:
+
 download:
 wget https://nodejs.org/dist/v10.14.1/node-v10.14.1.tar.gz
 
 extract:
 tar -xzf node-v10.14.1.tar.gz 
 
+copy to root:
+cd node-v10.14.1/
+sudo cp -R * /usr/local/
 
-4. 
+
+4. install npm:
+sudo apt-get install nodejs npm
