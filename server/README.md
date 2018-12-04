@@ -6,10 +6,16 @@ ssh pi@raspberrypi.local
 2. install homebrew (this might take some time):
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-check your version using:
-brew -v
+  check your version using:
+  brew -v
 
 3. install node (this might take a very time):
 brew install node
+download:
+wget https://nodejs.org/dist/v10.14.1/node-v10.14.1.tar.gz
+
+extract:
+tar -xzf node-v10.14.1.tar.gz 
+
 
 4. 
