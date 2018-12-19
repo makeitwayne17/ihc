@@ -1,4 +1,4 @@
-Steps for Pi to act as server.
+Steps for Pi to act as server:
 
 1. In computer terminal after the pi is connected to the same router type: 
 ssh pi@raspberrypi.local
@@ -47,8 +47,8 @@ sudo apt-get install nodejs npm
   - should return: v9.5.0
 
 7. inside the server (ihc/server) folder, install everything:
-  run the following command:
-  npm install
+   run the following command:
+   npm install
 
 8. 
 
