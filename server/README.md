@@ -24,3 +24,31 @@ sudo cp -R * /usr/local/
 
 4. install npm:
 sudo apt-get install nodejs npm
+
+5. install version manger for Node.js:
+  download Node Version Manager (NVM):
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  
+  run these commands after install NVM:
+  
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  sourse ~/.bash_profile
+  
+6. change nodejs version to v9.5.0
+  run these commands:
+ 
+  nvm install 9.5.0
+  nvm use node
+  
+  check the version using:
+  node -v
+  - should return: v9.5.0
+
+7. inside the server (ihc/server) folder, install everything:
+  run the following command:
+  npm install
+
+8. 
+
