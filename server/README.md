@@ -53,6 +53,7 @@ npm install
 
 brew update -v #the -v flag is optional, because this command runs a long time, it gives a constant status update
 brew install mongodb
+mkdir -p /data/db
 
 9. run follow command to start up server:
 npm run make
