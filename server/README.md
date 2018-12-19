@@ -51,7 +51,7 @@ Steps for Pi to act as server:
    npm install
 
 8. install and start mongodb (https://treehouse.github.io/installation-guides/mac/mongo-mac.html):
-brew update
+brew update -v #the -v flag is optional, because this command runs a long time, it gives a constant status update
 brew install mongodb
 
 9. run follow command to start up server:
