@@ -25,7 +25,7 @@ Steps for Pi to act as server:
 4. install npm:
   sudo apt-get install nodejs npm
 
-5. install version manger for Node.js:
+5. install version manger for Node.js (https://github.com/creationix/nvm):
   download Node Version Manager (NVM):
   curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
   
@@ -50,5 +50,12 @@ Steps for Pi to act as server:
    run the following command:
    npm install
 
-8. 
+8. install and start mongodb (https://treehouse.github.io/installation-guides/mac/mongo-mac.html):
+brew update
+brew install mongodb
+
+9. run follow command to start up server:
+npm run make
+
+
 
