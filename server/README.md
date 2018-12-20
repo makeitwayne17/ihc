@@ -78,8 +78,7 @@ mkdir -p /data/db
 
 9. run follow command to start up server:
 npm run make
-npm run start
-npm 
+npm start
 
 
 
