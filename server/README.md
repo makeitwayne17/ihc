@@ -33,7 +33,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-sourse ~/.bash_profile
+source ~/.bash_profile
   
 6. change nodejs version to v9.5.0
   run these commands:
@@ -49,14 +49,37 @@ node -v
 run the following command:
 npm install
 
-8. install and start mongodb (https://treehouse.github.io/installation-guides/mac/mongo-mac.html):
+8. install and start mongodb:
+sudo npm i -g npx  # incase npx is not installed
+sudo apt-get install dirmngr # incase dirmngr is not installed
+sudo npm install -g mongodb
+
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install mongodb-server
+sudo service mongodb start 
+sudo /etc/init.d/mongodb start
+
+
+### DO not use:
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927
+echo "deb http://repo.mongodb.org/apt/debian jessie/mongodb-org/3.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+sudo apt-get update
+sudo apt-get install -y mongodb 
+
+(https://treehouse.github.io/installation-guides/mac/mongo-mac.html):
 
 brew update -v #the -v flag is optional, because this command runs a long time, it gives a constant status update
 brew install mongodb
 mkdir -p /data/db
+###
+
 
 9. run follow command to start up server:
 npm run make
+npm run start
+npm 
 
 
 
