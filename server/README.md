@@ -82,3 +82,12 @@ npm start
 
 
 
+
+
+
+
+
+Mar 4, 2019 new update:
+Insteall mongodb : http://koenaerts.ca/compile-and-install-mongodb-on-raspberry-pi/
+
+
